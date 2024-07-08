@@ -10,6 +10,7 @@ Debido a que la información original viene en formato de página web, es posibl
 
 Más información sobre la base de datos se encuentra en la documentación de la base de datos (http://datos.cide.edu/handle/10089/17462) y en los [documentos](/docs/) de este repositorio.
 
+
 ## Contenido
 - Para los años anteriores a 2013, se cuenta solo con el título de la nota, pero no con el texto.
 - A partir de 2013, las notas tienen tanto título como texto.
@@ -30,6 +31,12 @@ No se incluyen en esta base de datos las notas que corresponden a:
 ## Enlaces
 - [Conjunto de datos](http://datos.cide.edu/handle/10089/17462)
 - [Página web del DOF](https://www.dof.gob.mx)
+
+## Código
+El código usado para generar el dataset se encuentra en el archivo [dof.ipynb](dof.ipynb). Este código está escrito en Python y usa las siguientes librerías:
+- `requests`
+- `bs4`
+- `pandas`
 
 ## Licencia
 Esta información se publica con carácter académico y no debe considerarse como una herramienta que sustituye la consulta de la versión impresa o la publicada en la página oficial del DOF.
